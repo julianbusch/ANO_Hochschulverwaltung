@@ -1,0 +1,24 @@
+<table>
+  <tr>
+    <th>Nr.</th>
+    <th>Vorname</th>
+    <th>Nachname</th>
+    <th>Kürzel</th>
+  </tr>
+  <tr *ngFor="let fakultaet of fakultaeten; let i=index;">
+    <td>{{i+1}}</td>
+    <td>{{fakultaet.vorname}}</td>
+    <td>{{fakultaet.nachname}}</td>
+    <td>{{fakultaet.kuerzel}}</td>
+
+
+
+  </tr>
+
+
+</table>
+
+
+<p>
+  fakultaeten-liste works!
+</p>
